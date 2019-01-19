@@ -1,0 +1,51 @@
+@font-face {
+      font-family: Luis Candara;
+      src: url('font/Luis Candara.ttf') format("opentype");
+    }
+@font-face {
+      font-family:just tell me what;
+      src: url('font/Just tell me what regular.otf') format("opentype");
+    }
+body{
+  background: url(keluarga1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text2{
+      width: 400px;
+      height: auto;
+      background-color: #111;
+      opacity: 0.8;
+      color: white;
+      font-size: 25px;
+      border-radius:14px;
+      font-family: Luis Candara;
+      padding: 3px 4px;
+      text-align: center;
+      margin-top: -25%;
+      float: right;
+      margin-right: 3%;}
+.text{
+      width: 300px;
+      height: auto;
+      background-color: #111;
+      opacity: 0.8;
+      color: white;
+      font-size: 25px;
+      border-radius:14px;
+      font-family: Luis Candara;
+      padding: 3px 4px;
+      text-align: center;
+        margin-top: 29%;
+        margin-left: 9%;
+      }
+h2{
+  font-size: 30px;
+  font-family: just tell me what;
+  color: white;
+}
+p{
+  font-size: 25px;
+  color: white;
+  font-family: Luis Candara;
+}

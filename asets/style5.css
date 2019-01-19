@@ -1,0 +1,32 @@
+@font-face {
+      font-family:just tell me what;
+      src: url('font/Just tell me what regular.otf') format("opentype");
+    }
+      .p1{
+  	margin-top: 20%;
+  	font-size: 25px;
+  color: white;
+  font-family: just tell me what;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  }
+  .p2{
+  	font-size: 35px;
+  color: white;
+  font-family: just tell me what;
+  text-align: center;
+
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  }
+  p{
+  	font-size: 25px;
+  color: white;
+  font-family: just tell me what;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  }
+body{
+  background-image: background:linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(239, 59, 54, 1));
+  background-size: 1400px 680px;
+}

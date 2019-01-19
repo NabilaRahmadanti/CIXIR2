@@ -1,0 +1,54 @@
+@font-face{
+	font-family: novia;
+	src: url('font/novia.otf') format("opentype");
+} 
+@font-face{
+	font-family:F1;
+	src: url('font/F1.otf') format("opentype");
+} 
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #FFAFBD;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+h1{
+	padding-top: 11%;
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	font-family: F1;
+}
+h3{
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	font-family: F1;
+}
+.bil{
+
+	width: 180px;
+	border-radius: 90px;
+	margin-bottom: 2%;
+	align-items: center;
+	justify-content: center;
+	margin-left: 42%;
+}
+@media screen(max-width: 400px)
+{
+	p{
+		text-align: center;
+		font-size: 10px;
+		color: purple;
+	}
+}
+@media screen(max-width: 800px)
+{
+	p{
+		text-align: justify;
+		font-size: 10px;
+		color: darkred;
+	}
+}
